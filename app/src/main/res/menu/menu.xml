@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item1"
+            android:title="About Me"
+            android:icon="@drawable/info_graphic_foreground"
+            />
+        <item
+            android:id="@+id/item2"
+            android:title="Movie"
+            android:icon="@drawable/movie_single_foreground"
+            />
+        <item
+            android:id="@+id/item3"
+            android:title="Movie List"
+            android:icon="@drawable/movie_list_foreground"
+            />
+    </group>
+</menu>
